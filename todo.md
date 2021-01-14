@@ -1,15 +1,24 @@
 # todo
-- format exponents/powers
-- add at least one image, you cold cruella
 - add notes to first 5 slides, stop procrastinating :-)
-- talk more slowly
+- talk more slowly (make a post-it)
 - haha who is eve
 - add intro/thanks slide
 - slower on the original premise
 - why doesn't bob have to open them all of them
 - id. what's an id?
 - alice keeps the key. adds a message.
-- literally a lock and key
+- canva in the future
+- change zoom name
+- fix 3 and 10s
+- spotlight for pointing at stuff
+- put the four images separately
+- explain the puzzles part (not envelopes)
+- add a final closing slide
+- make repo public
+- link to repo and more information
 
 # todone
+- literally a lock and key
+- add at least one image, you cold cruella
 - automate pdf generation
+- format exponents/powers. it's actually not done but using <sup>val</sup> breaks the slide fragment functionality. picking my poison.

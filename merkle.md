@@ -1,14 +1,25 @@
 # Merkle's Problems
+![External Image](https://cit59x.com/images/blog/2021-winter-hackathon-blog-post.jpg)
+
+Note: Thanks Jérérmie, Vanessa, Becky, Logan for organizing the student group.  Lanjun (Alex) Qi, Jintong Wu, David Binstock, Philipp Gaissert, and Dana Yang for organizing hackathon. the hackathoners -->
+
 
 
 ## What is the problem?
-- Alice and Bob want to talk.<!-- .element: class="fragment" -->
-- Alice and Bob want to talk in public.<!-- .element: class="fragment" -->
-- Alice and Bob want to talk in public but no one should understand their messages.<!-- .element: class="fragment" -->
+- Alice and Bob want to send messages.<!-- .element: class="fragment" -->
+- Alice and Bob want to send messages in public.<!-- .element: class="fragment" -->
+- Alice and Bob want to send messages in public but no one should understand their messages.<!-- .element: class="fragment" -->
   - People can eavesdrop but they shouldn't be able to understand the messages.<!-- .element: class="fragment" -->
 
-Note: Obviously we're in CS but for now let's just imagine real, real people. -->
+Note: this isn't from 551. it's of historical value and captures some of the ideas.  -->
 
+
+
+
+![](./ab1.png )<!-- .element: class="fragment" height="30%" -->  |  ![](./ab2.png)<!-- .element: class="fragment" height="30%"-->
+:-------------------------:|:-------------------------:
+![](./ab3.png)<!-- .element: class="fragment" height="30%"-->  |  ![](./ab4.png)<!-- .element: class="fragment" height="30%" -->
+Note: The green people who are eavesdropping are called...Eve. So that's A, B conversation, you can...eve.  -->
 
 
 ## What's the key problem?
@@ -20,20 +31,42 @@ Note: Obviously we're in CS but for now let's just imagine real, real people. --
 
 
 
+![](./onelock.png)
+
+
+
+![](./manylocks.png)
+
+
+
 ## The fundamental problem is
   - How do two parties agree on a key when people can watch them talking about the key?<!-- .element: class="fragment" -->
 
 
 
-## Use all the padlocks!
-  - Well, use a lot of them. Bob can send Alice say 10 envelopes of [padlock + key + random id].<!-- .element: class="fragment" -->
-  - Alice picks an envelope, say envelope #7.<!-- .element: class="fragment" -->
-    - She puts her secret message in a box, locks it with lock #7 and writes the random id on the outside.<!-- .element: class="fragment" -->
-    - Bob reads the id outside the box and uses the corresponding key. Reads the secret message.<!-- .element: class="fragment" -->
-  - What can an eavesdropper do?<!-- .element: class="fragment" -->
-    - An eavesdropper can open all 10 envelopes to find the random id.<!-- .element: class="fragment" -->
-    - That is 10x the work compared the Alice...<!-- .element: class="fragment" -->
+## Use all the locks!
 
+
+- Well, use a lot of them. Bob can send Alice say 3 envelopes of [padlock + key + random id].<!-- .element: class="fragment" -->
+- Alice picks only one envelope, opens it and takes out the [padlock + key + random id].<!-- .element: class="fragment" -->
+  - She puts her secret message in a box, locks it with the padlock and writes the id on the outside.<!-- .element: class="fragment" -->
+  - Bob reads the id outside the box and uses the corresponding key. Reads the secret message.<!-- .element: class="fragment" -->
+- What can an eavesdropper do?<!-- .element: class="fragment" -->
+  - An eavesdropper can open all 10 envelopes to find the random id.<!-- .element: class="fragment" -->
+  - That is 3x the work compared the Alice...<!-- .element: class="fragment" -->
+Note:   The envelope is just something anyone can open. Bob has a list of all the keys and their associated random ids. -->
+
+
+
+![](./sendlocks.png)
+
+
+
+![](./selectlock.png)
+
+
+
+![](./sendsecret.png)
 
 
 ## More generally...
