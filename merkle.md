@@ -1,13 +1,13 @@
 # Merkle's Problems
 
 
-
-## What's the problem?
+## What is the problem?
 - Alice and Bob want to talk.<!-- .element: class="fragment" -->
 - Alice and Bob want to talk in public.<!-- .element: class="fragment" -->
 - Alice and Bob want to talk public but no one should understand their messages.<!-- .element: class="fragment" -->
   - People can eavesdrop but they shouldn't be able to understand the messages.<!-- .element: class="fragment" -->
-<!-- Note: Obviously we're in CS but for now let's just imagine real, real people. -->
+
+Note: Obviously we're in CS but for now let's just imagine real, real people. -->
 
 
 
@@ -97,6 +97,3 @@
   - Different in that Bob only sends a small amount of information<!-- .element: class="fragment" -->
   - Different in that the difficulty for eavesdropper relies on an non-proven assumption<!-- .element: class="fragment" -->
     - Eavesdropper can't "efficiently" figure out the key, as far as they know<!-- .element: class="fragment" -->
-
-
-![External Image](https://cit59x.com/images/blog/2021-winter-hackathon/banner_master_guide.jpg)

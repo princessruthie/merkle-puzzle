@@ -20,6 +20,7 @@ const eslint = require('gulp-eslint')
 const minify = require('gulp-clean-css')
 const connect = require('gulp-connect')
 const autoprefixer = require('gulp-autoprefixer')
+const shell = require('gulp-shell')
 
 const root = yargs.argv.root || '.'
 const port = yargs.argv.port || 8000
@@ -91,6 +92,16 @@ gulp.task('js-es5', () => {
         });
     });
 })
+
+// gulp.task('gank-notes', () => {
+//   return gulp
+//     .src()
+// })
+
+gulp.task('greet', shell.task("cp merkle.md README.md && sed -i.bu 's/Note/<!--Note/' README.md && rm README.md.bu"))
+
+gulp.watch(['merkle.md'], gulp.series('greet'))
+
 
 // Creates an ES module bundle
 gulp.task('js-es6', () => {
