@@ -98,8 +98,8 @@
 
 
 
-- Bob is sending puzzles whose solutions<!-- .element: class="fragment" -->
-  - reveal his randomly-assigned id<!-- .element: class="fragment" -->
+- Bob is sending __puzzles__ whose solutions<!-- .element: class="fragment" -->
+  - reveal randomly-assigned id<!-- .element: class="fragment" -->
   - reveal a secret key<!-- .element: class="fragment" -->
 - Alice picks a puzzle and solves. Then she<!-- .element: class="fragment" -->
   - sends her secret message encrypted with the random id<!-- .element: class="fragment" -->
@@ -108,6 +108,7 @@
   - looks up and solves the puzzle<!-- .element: class="fragment" -->
 - Eve has to solve (up to) all the puzzles<!-- .element: class="fragment" -->
   - When she solves a puzzle that matches Alice's random id, she can stop<!-- .element: class="fragment" -->
+<!--Note:   Bob is the one assigning ids. -->
 
 
 

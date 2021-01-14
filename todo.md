@@ -1,8 +1,12 @@
+# the day of
+- clear the whiteboard
+- put on a shirt-shirt
+- move that plant
+
 # todo
 - add notes to first 5 slides, stop procrastinating :-)
 - talk more slowly (make a post-it)
 - haha who is eve
-- add intro/thanks slide
 - slower on the original premise
 - why doesn't bob have to open them all of them
 - id. what's an id?
@@ -12,11 +16,9 @@
 - fix 3 and 10s
 - spotlight for pointing at stuff
 - put the four images separately
-- explain the puzzles part (not envelopes)
 - add a final closing slide
 - make repo public
 - link to repo and more information
-
 
 # todone
 - literally a lock and key
@@ -24,3 +26,5 @@
 - automate pdf generation
 - format exponents/powers. it's actually not done but using <sup>val</sup> breaks the slide fragment functionality. picking my poison.
 - remvoe the down-nesting for second set of images
+- add intro/thanks slide
+- explain the puzzles part (not envelopes)
