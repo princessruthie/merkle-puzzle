@@ -4,7 +4,7 @@
 ## What is the problem?
 - Alice and Bob want to talk.<!-- .element: class="fragment" -->
 - Alice and Bob want to talk in public.<!-- .element: class="fragment" -->
-- Alice and Bob want to talk public but no one should understand their messages.<!-- .element: class="fragment" -->
+- Alice and Bob want to talk in public but no one should understand their messages.<!-- .element: class="fragment" -->
   - People can eavesdrop but they shouldn't be able to understand the messages.<!-- .element: class="fragment" -->
 
 Note: Obviously we're in CS but for now let's just imagine real, real people. -->
