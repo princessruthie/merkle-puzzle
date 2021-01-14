@@ -17,8 +17,10 @@
 - make repo public
 - link to repo and more information
 
+
 # todone
 - literally a lock and key
 - add at least one image, you cold cruella
 - automate pdf generation
 - format exponents/powers. it's actually not done but using <sup>val</sup> breaks the slide fragment functionality. picking my poison.
+- remvoe the down-nesting for second set of images

@@ -15,11 +15,11 @@ Note: this isn't from 551. it's of historical value and captures some of the ide
 
 
 
-
 ![](./ab1.png )<!-- .element: class="fragment" height="30%" -->  |  ![](./ab2.png)<!-- .element: class="fragment" height="30%"-->
 :-------------------------:|:-------------------------:
 ![](./ab3.png)<!-- .element: class="fragment" height="30%"-->  |  ![](./ab4.png)<!-- .element: class="fragment" height="30%" -->
 Note: The green people who are eavesdropping are called...Eve. So that's A, B conversation, you can...eve.  -->
+
 
 
 ## What's the key problem?
@@ -47,6 +47,7 @@ Note: The green people who are eavesdropping are called...Eve. So that's A, B co
 ## Use all the locks!
 
 
+
 - Well, use a lot of them. Bob can send Alice say 3 envelopes of [padlock + key + random id].<!-- .element: class="fragment" -->
 - Alice picks only one envelope, opens it and takes out the [padlock + key + random id].<!-- .element: class="fragment" -->
   - She puts her secret message in a box, locks it with the padlock and writes the id on the outside.<!-- .element: class="fragment" -->
@@ -67,6 +68,7 @@ Note:   The envelope is just something anyone can open. Bob has a list of all th
 
 
 ![](./sendsecret.png)
+
 
 
 ## More generally...
@@ -95,6 +97,7 @@ Note:   The envelope is just something anyone can open. Bob has a list of all th
 ## More actually...
 
 
+
 - Bob is sending puzzles whose solutions<!-- .element: class="fragment" -->
   - reveal his randomly-assigned id<!-- .element: class="fragment" -->
   - reveal a secret key<!-- .element: class="fragment" -->
@@ -121,6 +124,7 @@ Note:   The envelope is just something anyone can open. Bob has a list of all th
 
 
 ## The good, the bad, the future<!-- .element: class="r-fit-text" -->
+
 
 
 - Sadly, there's no way for Eve to be forced to do 2^n or n^100 or even n^3 work<!-- .element: class="fragment" -->
