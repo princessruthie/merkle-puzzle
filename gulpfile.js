@@ -93,14 +93,10 @@ gulp.task('js-es5', () => {
     });
 })
 
-// gulp.task('gank-notes', () => {
-//   return gulp
-//     .src()
-// })
 
-gulp.task('greet', shell.task("cp merkle.md README.md && sed -i.bu 's/Note/<!--Note/' README.md && rm README.md.bu"))
+gulp.task('gank-notes', shell.task("cp merkle.md README.md && sed -i.bu 's/Note/<!--Note/' README.md && rm README.md.bu  && md-to-pdf README.md  && echo pdf done making"))
 
-gulp.watch(['merkle.md'], gulp.series('greet'))
+gulp.watch(['merkle.md'], gulp.series('gank-notes'))
 
 
 // Creates an ES module bundle
