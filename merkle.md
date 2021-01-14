@@ -135,3 +135,12 @@ Note:   Bob is the one assigning ids. -->
   - Different in that Bob only sends a small amount of information<!-- .element: class="fragment" -->
   - Different in that the difficulty for eavesdropper relies on an non-proven assumption<!-- .element: class="fragment" -->
     - Eavesdropper can't "efficiently" figure out the key, as far as they know<!-- .element: class="fragment" -->
+
+
+
+# So...<!-- .element: class="fragment" -->
+- PDF/markdown available on github: github.com/princessruthie/merkle-puzzle<!-- .element: class="fragment" -->
+- I don't know the answer to almost any questions.<!-- .element: class="fragment" -->
+- But I'm more than happy to squint my eyes and say "hm. I don't know."<!-- .element: class="fragment" -->
+
+## Thank you!<!-- .element: class="fragment" -->

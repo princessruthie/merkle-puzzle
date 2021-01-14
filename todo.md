@@ -2,6 +2,8 @@
 - clear the whiteboard
 - put on a shirt-shirt
 - move that plant
+- spotlight for pointing at stuff
+
 
 # todo
 - add notes to first 5 slides, stop procrastinating :-)
@@ -14,11 +16,7 @@
 - canva in the future
 - change zoom name
 - fix 3 and 10s
-- spotlight for pointing at stuff
 - put the four images separately
-- add a final closing slide
-- make repo public
-- link to repo and more information
 
 # todone
 - literally a lock and key
@@ -28,3 +26,6 @@
 - remvoe the down-nesting for second set of images
 - add intro/thanks slide
 - explain the puzzles part (not envelopes)
+- link to repo and more information
+- add a final closing slide
+- make repo public
